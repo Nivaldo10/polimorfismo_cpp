@@ -1,87 +1,23 @@
 # polimorfismo_c++
-// Sequência dos arquivos:
+# Ordem dos arquivos:
 Employee.h
+
 Employee.cpp
+
 SalariedEmployee.h
+
 SalariedEmployee.cpp
+
 HourlyEmployee.h
+
 HourlyEmployee.cpp
+
 CommissionEmployee.h
+
 CommissionEmployee.cpp
+
 BasePlusCommissionEmployee.h
+
 BasePlusCommissionEmployee.cpp
+
 main.cpp
-
-saida dos dados:
-Employees processed individually using static binding:
-
-salaried employee: John Smith
-social security number: 111-11-1111
-weekly salary: 800.00
-earned $800.00
-
-hourly employee: Karen Price
-social security number: 222-22-2222
-hourly wage: 16.75; hours worked: 40.00
-earned $670.00
-
-commission employee: Sue Jones
-social security number: 333-33-3333
-gross sales: 10000.00; commission rate: 0.06
-earned $600.00
-
-base-salaried commission employee: Bob Lewis
-social security number: 444-44-4444
-gross sales: 5000.00; commission rate: 0.04; base salary: 300.00
-earned $500.00
-
-Employees processed polymorphically via dynamic binding:
-
-Virtual function calls made off base-class pointers:
-
-salaried employee: John Smith
-social security number: 111-11-1111
-weekly salary: 800.00
-earned $800.00
-
-hourly employee: Karen Price
-social security number: 222-22-2222
-hourly wage: 16.75; hours worked: 40.00
-earned $670.00
-
-commission employee: Sue Jones
-social security number: 333-33-3333
-gross sales: 10000.00; commission rate: 0.06
-earned $600.00
-
-base-salaried commission employee: Bob Lewis
-social security number: 444-44-4444
-gross sales: 5000.00; commission rate: 0.04; base salary: 300.00
-earned $500.00
-
-Virtual function calls made off base-class references:
-
-salaried employee: John Smith
-social security number: 111-11-1111
-weekly salary: 800.00
-earned $800.00
-
-hourly employee: Karen Price
-social security number: 222-22-2222
-hourly wage: 16.75; hours worked: 40.00
-earned $670.00
-
-commission employee: Sue Jones
-social security number: 333-33-3333
-gross sales: 10000.00; commission rate: 0.06
-earned $600.00
-
-base-salaried commission employee: Bob Lewis
-social security number: 444-44-4444
-gross sales: 5000.00; commission rate: 0.04; base salary: 300.00
-earned $500.00
-
-
---------------------------------
-Process exited after 0.05118 seconds with return value 0
-Pressione qualquer tecla para continuar. . .
